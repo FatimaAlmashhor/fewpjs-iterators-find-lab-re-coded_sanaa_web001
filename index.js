@@ -62,9 +62,10 @@ const record = [
     ]
 
 function superbowlWin(record){
- return record.find(e=> {
+ let x = record.find(e=> {
     if(e.result === 'W') return e.year;
  })
+ return x.year ;
 }
 // superbowlWin(record)
 //  const sadReality = record.map( yObj => Object.assign({}, yObj, { result: "N/A" } ) )

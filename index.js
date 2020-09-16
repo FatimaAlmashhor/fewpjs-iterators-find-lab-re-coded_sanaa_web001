@@ -71,4 +71,3 @@ function superbowlWin(record){
 //  const sadReality = record.map( yObj => Object.assign({}, yObj, { result: "N/A" } ) )
 //    superbowlWin(sadReality)
 //
- 

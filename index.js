@@ -66,8 +66,8 @@ function superbowlWin(record){
     if(e.result === 'W') return e.year;
  })
 }
-superbowlWin(record)
- const sadReality = record.map( yObj => Object.assign({}, yObj, { result: "N/A" } ) )
-   superbowlWin(sadReality)
-      
+// superbowlWin(record)
+//  const sadReality = record.map( yObj => Object.assign({}, yObj, { result: "N/A" } ) )
+//    superbowlWin(sadReality)
+//       
  

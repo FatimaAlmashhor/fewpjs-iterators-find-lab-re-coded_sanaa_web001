@@ -5,7 +5,6 @@ function superbowlWin(record){
     if(e.result === 'W'){ return e.year};
      else {return  undefined}
  })
- return x.year ;
 }
 superbowlWin(
  [

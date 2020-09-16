@@ -2,8 +2,8 @@
 
 function superbowlWin(record){
  let x = record.find(e=> {
-    if(e.result === 'W'){ return e.year};
-     else {return  undefined}
+    if(e.result === 'W'){ return e.year}
+        else {return  undefined}
  })
  return x ;
 }
